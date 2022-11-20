@@ -1,0 +1,36 @@
+.hero__section {
+    background: var(--hero-bg);
+}
+
+.hero__section h2{
+    color:#5c8aba;
+    font-size: 2.5rem;
+    font-weight: 600;
+    margin: 20px 0px;
+}
+
+.hero__section p {
+    color: rgb(77, 140, 161);
+    line-height: 28px;
+}
+
+.toBuy_btn, .toSell_btn{
+    border: none;
+    outline: none;
+    padding: 8px 20px;
+    border-radius: 5px;
+    background-color: #7aa5d4;
+    color: #fff;
+    cursor: pointer;
+    font-size: .5rem;
+    margin-top: 20px;
+}
+.toBuy_btn:hover, .toSell_btn:hover{
+    background-color:var(--dark-color);
+}
+.toBuy_btn a:hover, .toSell_btn a:hover{
+    color: #fff;
+}
+.hero__content{
+    padding-top:20px;
+}
